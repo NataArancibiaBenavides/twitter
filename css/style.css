@@ -1,0 +1,149 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Fira Mono', monospace;
+	
+}
+
+
+#fondo img{
+
+	position:fixed;
+	width:1400px;
+	height:700px; 
+}
+
+#barra{
+    position:absolute;
+    top:0px;
+    height: 60px;
+    width: 100%; 
+	background-color: #79CEF6;
+
+}
+
+#barra h1{
+	
+	color:#FFFFFF;
+	font-size: 30px;
+	padding: 20px;
+	text-align: center;
+}
+
+.caja{
+
+	position: absolute;
+	left: 80px;
+	top:80px;
+	width: 600px;
+	height:250px;
+	background-color: #FFFFFF;
+}
+
+.caja h1{
+	position: absolute;
+	color:#A1A1A1;
+	top:60px;
+	left:30px;
+	font-size:20px;
+
+}
+.caja p {
+
+	position: absolute;
+	color:#A1A1A1;
+	top:120px;
+	left:30px;
+	font-size:20px;
+}
+
+.caja h4{
+
+	position: absolute;
+	color:#224CE6;
+	top:220px;
+	left:20px;
+	
+}
+
+
+.caja hr{
+
+	position: absolute;
+	top:190px;
+	width: 548px;
+	height:0px;
+	background-color:#F0F0F0;
+
+
+}
+.cont{
+
+	position: absolute;
+	left: 700px;
+	top:80px;
+	width:600px;
+	height:200px;
+	background-color: #FFFFFF;
+
+}	
+
+textarea {
+	width: 598px;
+	height: 140px;
+	color: #4E4D53;
+	font-size: 15px;
+	top:0px;
+	border-bottom: 2px solid #3291EA;
+	margin: 0 auto;
+}
+	
+
+#boton{
+	position: absolute;
+	width: 90px;
+	height: 40px;
+	left:20px;
+	background-color: #6AADF1;
+	top:150px;
+	border:0px;
+	font-family: 40px;
+	color:#FFFFFF;
+
+}
+.tuit {
+    border: 2px solid deeppink;
+}
+
+p {
+	display: inline-block;
+	margin-left: 0.5em;
+}
+#contenido{
+
+	position: absolute;
+	top:400px;
+	left:0px;
+	border-radius: 1px;
+	margin:0 auto;
+	color:#000;
+	text-align: left;
+	width:100%;
+	
+}
+
+
+#contenido div{
+
+	padding: 5em, 1em;
+	margin-bottom: 2em;
+	outline: 0.1em solid#fff;
+	background-color: #fff;
+}
+
+#contenido span{
+	margin-left: 1em;
+}	
